@@ -1,0 +1,24 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.stars{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img{
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.item p{
+    font-family: Amatic SC;
+    font-size: 25px;
+}
